@@ -1,4 +1,2 @@
-{
-  console.log('realmadsci was here');
-  alert('realmadsci was here')
-}
+console.log('realmadsci was here');
+alert('realmadsci was here');
