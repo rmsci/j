@@ -1,4 +1,6 @@
-@import "compass/css3" .glitch {
+@import "compass/css3"
+
+.glitch {
 	 color: white;
 	 font-size: 100px;
 	 position: absolute;
