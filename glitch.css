@@ -6,7 +6,7 @@
  .glitch {
 	 color: white;
 	 font-size: 8.0vw;
-	 position: absolute;
+	 position: relative;
          margin:0 auto;
 }
  @keyframes noise-anim {
