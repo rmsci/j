@@ -1,20 +1,12 @@
-@import "compass/css3"
-
-.glitch{
- color:white;
- font-size:100px;
- position:absolute;
- left: 0;
- top: 0;
- right: 0;
- bottom: 0;
-
- width:auto;
- background:black;
- background:rgba(0,0,0,0.8);
-
+body {
+ background: black;
  font-family: 'Syne Mono', sans-serif;
+}
 
+.realmadglitch {
+ color: white;
+ font-size: 8.0vw;
+ position: relative;
  margin:0 auto;
 }
 @keyframes noise-anim{
@@ -26,7 +18,7 @@
  }
 }
 
-.glitch:after{
+.realmadglitch:after{
  content:attr(data-text);
  position:absolute;
  left:2px;
@@ -47,7 +39,7 @@
  }
 }
 
-.glitch:before{
+.realmadglitch:before{
  content:attr(data-text);
  position:absolute;
  left:-2px;
