@@ -5,9 +5,8 @@
 }
  .glitch {
 	 color: white;
-	 font-size: 100px;
+	 font-size: 10.5vw;
 	 position: relative;
-	 width: 1200px;
 	 margin: 0 auto;
 }
  @keyframes noise-anim {
