@@ -21,7 +21,8 @@ $font-height: 8.0vw;
  color: white;
  font-size: $font-height;
  position: relative;
- margin:auto auto;
+ top:0.5vh-$font-height/2
+ margin:0 auto;
 }
 @keyframes noise-anim{
  $steps:20;
