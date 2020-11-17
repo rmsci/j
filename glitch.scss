@@ -1,10 +1,13 @@
 $font-height: 8.0vw;
 
 .realmadoverlay {
- background: black;
- font-family: 'Syne Mono', sans-serif;
- opacity: 0.8;
- position: absolute;
+  background: black;
+  font-family: 'Syne Mono', sans-serif;
+  opacity: 0.7;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:5;
 }
 
 .realmadglitch {
