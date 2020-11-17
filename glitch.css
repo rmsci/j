@@ -1,12 +1,13 @@
 .realmadoverlay {
   background: black;
   font-family: 'Syne Mono', sans-serif;
-  opacity: 0.3;
+  opacity: 0.8;
+  position: absolute;
 }
 .realmadglitch {
   color: white;
   font-size: 8vw;
-  position: absolute;
+  position: relative;
   margin: 0 auto;
 }
 @keyframes noise-anim {
