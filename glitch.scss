@@ -3,12 +3,13 @@ $font-height: 8.0vw;
 .realmadoverlay {
  background: black;
  font-family: 'Syne Mono', sans-serif;
+ opacity: 0.3;
 }
 
 .realmadglitch {
  color: white;
  font-size: $font-height;
- position: relative;
+ position: absolute;
  margin:0 auto;
 }
 @keyframes noise-anim{
