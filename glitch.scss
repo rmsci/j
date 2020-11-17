@@ -12,8 +12,7 @@ $font-height: 8.0vw;
   left:0;
   height:100%;
   width:100%;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: hidden; /* Disable vertical scroll */
+  overflow: hidden; /* Disable scroll */
   z-index:9999;
 }
 
@@ -21,8 +20,8 @@ $font-height: 8.0vw;
  color: white;
  font-size: $font-height;
  position: relative;
- top:0.5vh-$font-height/2;
- margin:0 auto;
+ //top:0.5vh-$font-height/2;
+ margin:$font-height auto;
 }
 @keyframes noise-anim{
  $steps:20;
