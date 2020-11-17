@@ -38,7 +38,7 @@ $font-height: 8.0vw;
  color:white;
  background:black;
  overflow:hidden;
- clip:rect(0,1200px,0,0); 
+ clip:rect(0,9999px,0,0); 
  animation:noise-anim 2s infinite linear alternate-reverse;
 }
 @keyframes noise-anim-2{
@@ -59,6 +59,6 @@ $font-height: 8.0vw;
  color:white;
  background:black;
  overflow:hidden;
- clip:rect(0,1200px,0,0); 
+ clip:rect(0,9999px,0,0); 
  animation:noise-anim-2 3s infinite linear alternate-reverse;
 }
