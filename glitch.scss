@@ -1,3 +1,5 @@
+$font-height: 8.0vw;
+
 .realmadoverlay {
  background: black;
  font-family: 'Syne Mono', sans-serif;
@@ -5,7 +7,7 @@
 
 .realmadglitch {
  color: white;
- font-size: 8.0vw;
+ font-size: $font-height;
  position: relative;
  margin:0 auto;
 }
@@ -13,7 +15,7 @@
  $steps:20;
  @for $i from 0 through $steps{
   #{percentage($i*(1/$steps))}{
-   clip:rect(random(100)+px,9999px,random(100)+px,0);
+   clip:rect($font-height*random(100)/100,9999px,$font-height*random(100)/100,0);
   }
  }
 }
@@ -34,7 +36,7 @@
  $steps:20;
  @for $i from 0 through $steps{
   #{percentage($i*(1/$steps))}{
-   clip:rect(random(100)+px,9999px,random(100)+px,0);
+   clip:rect($font-height*random(100)/100,9999px,$font-height*random(100)/100,0);
   }
  }
 }
