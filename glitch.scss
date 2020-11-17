@@ -20,8 +20,8 @@ $font-height: 8.0vw;
  color: white;
  font-size: $font-height;
  position: relative;
- top:0.5vh-$font-height/2;
- //margin:$font-height auto;
+ //top:0.5vh-$font-height/2;
+ margin:0.5vh-$font-height/2 auto;
 }
 @keyframes noise-anim{
  $steps:20;
