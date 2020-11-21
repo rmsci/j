@@ -14,10 +14,10 @@ $font-height: 16.0vw;
   width:100%;
   overflow: hidden; /* Disable scroll */
   z-index:-9999;
+  display: flex;
 }
 
 .realmadglitch {
- margin-top:0;
  color: white;
  font-size: $font-height;
  position: relative;
