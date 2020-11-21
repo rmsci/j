@@ -13,12 +13,12 @@ $font-height: 16.0vmin;
   height:100%;
   width:100%;
   overflow: hidden; /* Disable scroll */
-  z-index:-9999;
+  z-index:9999;
   /*Stack the overlay words vertically and center them*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
 }
 
 .realmadglitch {
