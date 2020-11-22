@@ -18,3 +18,4 @@ function sayhello() {
   xhr.send();
 }
 
+sayhello();
