@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-height: 16.0vmin;
+$font-height: 18.0vmin;
 
 .realmadoverlay {
   background: black;
@@ -33,7 +33,6 @@ $font-height: 16.0vmin;
  color: white;
  position: relative;
  display: block; /* This is redundant for div, unless somebody adds weird styling. Since we are injecting in arbitrary pages, better safe than sorry... */
- /*margin-top: 0px;*/
 }
 @keyframes noise-anim{
  $steps:20;
