@@ -6,6 +6,7 @@ $font-height: 16.0vmin;
 .realmadoverlay {
   background: black;
   font-family: 'Syne Mono', sans-serif;
+  line-height: $font-height; /* Force the line height in case a host page has it set in body{} */
   opacity: 0.8;
   position: fixed;
   top:0;
