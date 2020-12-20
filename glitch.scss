@@ -6,7 +6,9 @@ $font-height: 16.0vmin;
 .realmadoverlay {
   background: black;
   font-family: 'Syne Mono', sans-serif;
+  font-size: $font-height;
   line-height: $font-height; /* Force the line height in case a host page has it set in body{} */
+  padding-top: $font-height/2;
 
   /* Make it mostly transparent and stacked on top, but allow the user to still interact with the page */
   opacity: 0.1;
@@ -29,8 +31,8 @@ $font-height: 16.0vmin;
 
 .realmadglitch {
  color: white;
- font-size: $font-height;
  position: relative;
+ display: block; /* This is redundant for div, unless somebody adds weird styling. Since we are injecting in arbitrary pages, better safe than sorry... */
 }
 @keyframes noise-anim{
  $steps:20;
