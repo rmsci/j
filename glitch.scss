@@ -7,14 +7,19 @@ $font-height: 16.0vmin;
   background: black;
   font-family: 'Syne Mono', sans-serif;
   line-height: $font-height; /* Force the line height in case a host page has it set in body{} */
-  opacity: 0.8;
+
+  /* Make it mostly transparent and stacked on top, but allow the user to still interact with the page */
+  opacity: 0.1;
+  z-index:9999;
+  pointer-events: none;
+  
+  /* Make it not scroll, and have it take up the whole viewport */
   position: fixed;
   top:0;
   left:0;
   height:100%;
   width:100%;
-  overflow: hidden; /* Disable scroll */
-  z-index:9999;
+  
   /*Stack the overlay words vertically and center them*/
   display: flex;
   flex-direction: column;
