@@ -39,7 +39,7 @@ function makeGlitchWord(word) {
 
 let overlay = makeDivWithClass('realmadoverlay');
 overlay.style.opacity = 0.8; // Make it darker
-let w = ['Welcome', 'to', 'CS4310'];
+let w = ['Welcome', 'to', 'CY4310'];
 w.forEach(function(word) {
     overlay.appendChild(makeGlitchWord(word));
 });
